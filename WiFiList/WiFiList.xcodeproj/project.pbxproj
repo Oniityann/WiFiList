@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC48818722AE2AED00200121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48818622AE2AED00200121 /* AppDelegate.swift */; };
+		AC48818922AE2AED00200121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48818822AE2AED00200121 /* ViewController.swift */; };
+		AC48818C22AE2AED00200121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48818A22AE2AED00200121 /* Main.storyboard */; };
+		AC48818E22AE2AEE00200121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48818D22AE2AEE00200121 /* Assets.xcassets */; };
+		AC48819122AE2AEE00200121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48818F22AE2AEE00200121 /* LaunchScreen.storyboard */; };
+		AC48819C22AE2AEE00200121 /* WiFiListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48819B22AE2AEE00200121 /* WiFiListTests.swift */; };
+		AC4881A722AE2AEE00200121 /* WiFiListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4881A622AE2AEE00200121 /* WiFiListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC48819822AE2AEE00200121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48817B22AE2AED00200121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48818222AE2AED00200121;
+			remoteInfo = WiFiList;
+		};
+		AC4881A322AE2AEE00200121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48817B22AE2AED00200121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48818222AE2AED00200121;
+			remoteInfo = WiFiList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC48818322AE2AED00200121 /* WiFiList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFiList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48818622AE2AED00200121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC48818822AE2AED00200121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC48818B22AE2AED00200121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC48818D22AE2AEE00200121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC48819022AE2AEE00200121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC48819222AE2AEE00200121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48819722AE2AEE00200121 /* WiFiListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48819B22AE2AEE00200121 /* WiFiListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiListTests.swift; sourceTree = "<group>"; };
+		AC48819D22AE2AEE00200121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4881A222AE2AEE00200121 /* WiFiListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiFiListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4881A622AE2AEE00200121 /* WiFiListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiListUITests.swift; sourceTree = "<group>"; };
+		AC4881A822AE2AEE00200121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC48818022AE2AED00200121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48819422AE2AEE00200121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48819F22AE2AEE00200121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC48817A22AE2AED00200121 = {
+			isa = PBXGroup;
+			children = (
+				AC48818522AE2AED00200121 /* WiFiList */,
+				AC48819A22AE2AEE00200121 /* WiFiListTests */,
+				AC4881A522AE2AEE00200121 /* WiFiListUITests */,
+				AC48818422AE2AED00200121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC48818422AE2AED00200121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC48818322AE2AED00200121 /* WiFiList.app */,
+				AC48819722AE2AEE00200121 /* WiFiListTests.xctest */,
+				AC4881A222AE2AEE00200121 /* WiFiListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC48818522AE2AED00200121 /* WiFiList */ = {
+			isa = PBXGroup;
+			children = (
+				AC48818622AE2AED00200121 /* AppDelegate.swift */,
+				AC48818822AE2AED00200121 /* ViewController.swift */,
+				AC48818A22AE2AED00200121 /* Main.storyboard */,
+				AC48818D22AE2AEE00200121 /* Assets.xcassets */,
+				AC48818F22AE2AEE00200121 /* LaunchScreen.storyboard */,
+				AC48819222AE2AEE00200121 /* Info.plist */,
+			);
+			path = WiFiList;
+			sourceTree = "<group>";
+		};
+		AC48819A22AE2AEE00200121 /* WiFiListTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC48819B22AE2AEE00200121 /* WiFiListTests.swift */,
+				AC48819D22AE2AEE00200121 /* Info.plist */,
+			);
+			path = WiFiListTests;
+			sourceTree = "<group>";
+		};
+		AC4881A522AE2AEE00200121 /* WiFiListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4881A622AE2AEE00200121 /* WiFiListUITests.swift */,
+				AC4881A822AE2AEE00200121 /* Info.plist */,
+			);
+			path = WiFiListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC48818222AE2AED00200121 /* WiFiList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4881AB22AE2AEE00200121 /* Build configuration list for PBXNativeTarget "WiFiList" */;
+			buildPhases = (
+				AC48817F22AE2AED00200121 /* Sources */,
+				AC48818022AE2AED00200121 /* Frameworks */,
+				AC48818122AE2AED00200121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFiList;
+			productName = WiFiList;
+			productReference = AC48818322AE2AED00200121 /* WiFiList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC48819622AE2AEE00200121 /* WiFiListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4881AE22AE2AEE00200121 /* Build configuration list for PBXNativeTarget "WiFiListTests" */;
+			buildPhases = (
+				AC48819322AE2AEE00200121 /* Sources */,
+				AC48819422AE2AEE00200121 /* Frameworks */,
+				AC48819522AE2AEE00200121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC48819922AE2AEE00200121 /* PBXTargetDependency */,
+			);
+			name = WiFiListTests;
+			productName = WiFiListTests;
+			productReference = AC48819722AE2AEE00200121 /* WiFiListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4881A122AE2AEE00200121 /* WiFiListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4881B122AE2AEE00200121 /* Build configuration list for PBXNativeTarget "WiFiListUITests" */;
+			buildPhases = (
+				AC48819E22AE2AEE00200121 /* Sources */,
+				AC48819F22AE2AEE00200121 /* Frameworks */,
+				AC4881A022AE2AEE00200121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4881A422AE2AEE00200121 /* PBXTargetDependency */,
+			);
+			name = WiFiListUITests;
+			productName = WiFiListUITests;
+			productReference = AC4881A222AE2AEE00200121 /* WiFiListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC48817B22AE2AED00200121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Onityann;
+				TargetAttributes = {
+					AC48818222AE2AED00200121 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AC48819622AE2AEE00200121 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AC48818222AE2AED00200121;
+					};
+					AC4881A122AE2AEE00200121 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AC48818222AE2AED00200121;
+					};
+				};
+			};
+			buildConfigurationList = AC48817E22AE2AED00200121 /* Build configuration list for PBXProject "WiFiList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC48817A22AE2AED00200121;
+			productRefGroup = AC48818422AE2AED00200121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC48818222AE2AED00200121 /* WiFiList */,
+				AC48819622AE2AEE00200121 /* WiFiListTests */,
+				AC4881A122AE2AEE00200121 /* WiFiListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC48818122AE2AED00200121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48819122AE2AEE00200121 /* LaunchScreen.storyboard in Resources */,
+				AC48818E22AE2AEE00200121 /* Assets.xcassets in Resources */,
+				AC48818C22AE2AED00200121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48819522AE2AEE00200121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4881A022AE2AEE00200121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC48817F22AE2AED00200121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48818922AE2AED00200121 /* ViewController.swift in Sources */,
+				AC48818722AE2AED00200121 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48819322AE2AEE00200121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48819C22AE2AEE00200121 /* WiFiListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48819E22AE2AEE00200121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4881A722AE2AEE00200121 /* WiFiListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC48819922AE2AEE00200121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48818222AE2AED00200121 /* WiFiList */;
+			targetProxy = AC48819822AE2AEE00200121 /* PBXContainerItemProxy */;
+		};
+		AC4881A422AE2AEE00200121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48818222AE2AED00200121 /* WiFiList */;
+			targetProxy = AC4881A322AE2AEE00200121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC48818A22AE2AED00200121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48818B22AE2AED00200121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC48818F22AE2AEE00200121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48819022AE2AEE00200121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4881A922AE2AEE00200121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4881AA22AE2AEE00200121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4881AC22AE2AEE00200121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X34D4D4K6;
+				INFOPLIST_FILE = WiFiList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loveplus.WiFiList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4881AD22AE2AEE00200121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X34D4D4K6;
+				INFOPLIST_FILE = WiFiList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loveplus.WiFiList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC4881AF22AE2AEE00200121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X34D4D4K6;
+				INFOPLIST_FILE = WiFiListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loveplus.WiFiListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFiList.app/WiFiList";
+			};
+			name = Debug;
+		};
+		AC4881B022AE2AEE00200121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X34D4D4K6;
+				INFOPLIST_FILE = WiFiListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loveplus.WiFiListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiFiList.app/WiFiList";
+			};
+			name = Release;
+		};
+		AC4881B222AE2AEE00200121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X34D4D4K6;
+				INFOPLIST_FILE = WiFiListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loveplus.WiFiListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiFiList;
+			};
+			name = Debug;
+		};
+		AC4881B322AE2AEE00200121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X34D4D4K6;
+				INFOPLIST_FILE = WiFiListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loveplus.WiFiListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiFiList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC48817E22AE2AED00200121 /* Build configuration list for PBXProject "WiFiList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4881A922AE2AEE00200121 /* Debug */,
+				AC4881AA22AE2AEE00200121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4881AB22AE2AEE00200121 /* Build configuration list for PBXNativeTarget "WiFiList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4881AC22AE2AEE00200121 /* Debug */,
+				AC4881AD22AE2AEE00200121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4881AE22AE2AEE00200121 /* Build configuration list for PBXNativeTarget "WiFiListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4881AF22AE2AEE00200121 /* Debug */,
+				AC4881B022AE2AEE00200121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4881B122AE2AEE00200121 /* Build configuration list for PBXNativeTarget "WiFiListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4881B222AE2AEE00200121 /* Debug */,
+				AC4881B322AE2AEE00200121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC48817B22AE2AED00200121 /* Project object */;
+}
